@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>How does LogRocket work</title>
+    <script src="./index.js"></script>
+  </head>
+  <body>
+    <div style="display: flex; flex-direction: row">
+      <div style="display: flex; flex-direction: column; width: 300px">
+        <div style="display: flex; flex-direction: row">
+          <p
+            style="
+              width: fit-content;
+              font-family: sans-serif;
+              height: 20px;
+              margin-top: 0;
+              margin-bottom: 4px;
+            "
+          >
+            source
+          </p>
+          <button
+            id="changeSourceElement"
+            style="
+              width: fit-content;
+              height: 20px;
+              margin-bottom: 4px;
+              margin-left: 1rem;
+            "
+          >
+            change
+          </button>
+        </div>
+
+        <div
+          id="source"
+          style="width: 100px; height: 100px; background-color: silver"
+        >
+          &nbsp;
+        </div>
+        <div style="display: flex; flex-direction: column; width: 300px"></div>
+      </div>
+
+      <div style="display: flex; flex-direction: column; flex-grow: 1">
+        <p
+          style="
+            width: fit-content;
+            font-family: sans-serif;
+            height: 20px;
+            margin-top: 0;
+            margin-bottom: 4px;
+          "
+        >
+          replay
+        </p>
+        <div
+          id="player"
+          style="width: 100px; height: 100px; background-color: silver"
+        ></div>
+      </div>
+    </div>
+  </body>
+</html>
